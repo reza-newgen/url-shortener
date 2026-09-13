@@ -17,12 +17,21 @@ Plaintext
   [ Client ] 
       │
       ├─── 1. POST /api/v1/urls ───────────► [ Spring Boot API ] ───► [ PostgreSQL ]
-      │                                             │
+
+
+      
+                                                 │
       ├─── 2. GET /{code} (Redirect) ──────────────┤
       │                                             ├───► [ Redis Cache ]
       │                                             └───► [ Kafka Producer ] ───► [ Kafka Consumer ] ───► [ PostgreSQL ]
-      │
+
+
+      
       └─── 3. GET /api/v1/urls/{code}/analytics ───► [ Spring Boot API ] ───► [ PostgreSQL ]
+
+
+
+      
 🛠 Tech Stack
 Language: Java 21
 
