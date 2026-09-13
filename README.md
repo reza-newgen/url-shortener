@@ -13,7 +13,9 @@ OpenAPI 3.1 & Swagger UI: Fully interactive REST API documentation generated via
 Resilient Failure Isolation: Soft-fails Kafka/Redis connectivity drops so redirection paths remain operational.
 
 🏗 System Architecture
-Plaintext
+
+
+
   [ Client ] 
       │
       ├─── 1. POST /api/v1/urls ───────────► [ Spring Boot API ] ───► [ PostgreSQL ]
