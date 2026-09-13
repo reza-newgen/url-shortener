@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.view.RedirectView;
 
 @RestController
-@RequestMapping("/api/v1/urls")
 @Tag(name = "URL Shortener API", description = "Endpoints for creating, resolving, and monitoring short URLs")
 public class UrlController {
 
@@ -30,7 +29,7 @@ public class UrlController {
             @ApiResponse(responseCode = "200", description = "URL shortened successfully"),
             @ApiResponse(responseCode = "400", description = "Invalid URL format provided")
     })
-    @PostMapping("/")
+    @PostMapping("/api/v1/urls")
     public ResponseEntity<CreateUrlResponse> create(@Valid @RequestBody CreateUrlRequest request) {
         return ResponseEntity.ok(service.create(request.url()));
     }
@@ -53,7 +52,7 @@ public class UrlController {
             @ApiResponse(responseCode = "200", description = "Analytics retrieved successfully"),
             @ApiResponse(responseCode = "404", description = "Short code not found")
     })
-    @GetMapping("/{code}/analytics")
+    @GetMapping("/api/v1/urls/{code}/analytics")
     public AnalyticsResponse analytics(@PathVariable String code) {
         return service.analytics(code);
     }

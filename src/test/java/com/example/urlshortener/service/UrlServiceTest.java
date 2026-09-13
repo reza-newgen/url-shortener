@@ -35,7 +35,7 @@ class UrlServiceTest {
     @BeforeEach
     void setUp() {
         lenient().when(redis.opsForValue()).thenReturn(valueOperations);
-        urlService = new UrlService(repo, redis, kafka, "http://localhost:8080/api/v1/urls", "url-analytics-topic");
+        urlService = new UrlService(repo, redis, kafka, "http://localhost:8080", "url-analytics-topic");
     }
 
     @Test
