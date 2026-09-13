@@ -69,7 +69,7 @@ Accepts long target URLs and generates 7-character codes (AzUM3Wt).
    
 Executing redirects directly updates analytics counters via background Kafka workers.
 
-Bash
+
 # Test HTTP 302 Redirect Response
 curl -i http://localhost:8080/AzUM3Wt
 
@@ -95,14 +95,12 @@ Docker & Docker Compose
    
 Launch PostgreSQL, Redis, and Kafka instances:
 
-Bash
 
 docker-compose up -d
 
 
 2. Build and Run Application
    
-Bash
 
 mvn clean package -DskipTests
 
@@ -113,5 +111,4 @@ mvn spring-boot:run
 
 Run automated unit and integration tests:
 
-Bash
 mvn test
