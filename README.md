@@ -17,7 +17,7 @@ Resilient Failure Isolation: Soft-fails Kafka/Redis connectivity drops so redire
 
 🏗 System Architecture
 
-[architecture](docs/architecture.md)
+![architecture](docs/architecture.md)
 
   [ Client ] 
       │
@@ -114,7 +114,7 @@ Run automated unit and integration tests:
 mvn test
 
 
-[Application Starting](docs/images/application_starting.jpg)
+![Application Starting](docs/images/application_starting.jpg)
 ![Swagger UI](docs/images/swagger-UI.png)
 ![POST Request 1](docs/images/POST-request-1.png)
 ![POST Request 2](docs/images/POST-request-2.png)
