@@ -56,4 +56,5 @@ public class UrlController {
     public AnalyticsResponse analytics(@PathVariable String code) {
         return service.analytics(code);
     }
+    
 }
