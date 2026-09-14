@@ -17,7 +17,7 @@ Resilient Failure Isolation: Soft-fails Kafka/Redis connectivity drops so redire
 
 🏗 System Architecture
 
-![architecture](docs/architecture.md)
+[System Architecture & Kafka Flow](./docs/ARCHITECTURE.md)
 
   [ Client ] 
       │
@@ -32,7 +32,7 @@ Resilient Failure Isolation: Soft-fails Kafka/Redis connectivity drops so redire
 
 
       
-      └─── 3. GET /api/v1/urls/{code}/analytics ───► [ Spring Boot API ] ───► [ PostgreSQL ]
+      └─── 3. GET /api/v1/urls/{code}/analytics ───► [ Spring Boot API ] ───► [ Kafka Consumer ] ───►[ PostgreSQL ]
 
 
 
