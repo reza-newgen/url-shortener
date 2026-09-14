@@ -114,6 +114,8 @@ Run automated unit and integration tests:
 mvn test
 
 
+![Swagger UI](docs/images/swagger-UI.png)
+
 ![Application Starting](docs/images/application_starting.jpg)
 ![Swagger UI](docs/images/swagger-UI.png)
 ![POST Request 1](docs/images/POST-request-1.png)
