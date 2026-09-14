@@ -115,12 +115,13 @@ mvn test
 
 
 [Application Starting](docs/images/application_starting.jpg)
-![Database Table 1](docs/images/database-table-1.png)
-![Database Table 2](docs/images/database-table-2.png)
-![GET Analytics API Call](docs/images/GET-analytics-API-call.png)
-![GET Analytics API Result](docs/images/GET-analytics-API-call-result.png)
-![GET Request](docs/images/GET-request.png)
+![Swagger UI](docs/images/swagger-UI.png)
 ![POST Request 1](docs/images/POST-request-1.png)
 ![POST Request 2](docs/images/POST-request-2.png)
+![Database Table 1](docs/images/database-table-1.png)
+![GET Request](docs/images/GET-request.png)
+![GET Analytics API Call](docs/images/GET-analytics-API-call.png)
+![GET Analytics API Result](docs/images/GET-analytics-API-call-result.png)
+![Database Table 2](docs/images/database-table-2.png)
 ![Request Terminal](docs/images/request_terminal.png)
-![Swagger UI](docs/images/swagger-UI.png)
+
