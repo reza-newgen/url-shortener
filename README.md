@@ -35,7 +35,7 @@ Resilient Failure Isolation: Soft-fails Kafka/Redis connectivity drops so redire
       └─── 3. GET /api/v1/urls/{code}/analytics ───► [ Spring Boot API ] ───► [ Kafka Consumer ] ───►[ PostgreSQL ]
 
 
-![AI-COPILot-instruction](.github/copilot-instructions.md)
+![AI-COPILOT-instruction](.github/copilot-instructions.md)
       
 🛠 Tech Stack
 
