@@ -17,7 +17,7 @@ Resilient Failure Isolation: Soft-fails Kafka/Redis connectivity drops so redire
 
 🏗 System Architecture
 
-[System Architecture & Kafka Flow](/docs/ARCHITECTURE.md)
+![System Architecture & Kafka Flow](docs/architecture.md)
 
   [ Client ] 
       │
