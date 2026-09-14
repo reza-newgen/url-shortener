@@ -116,7 +116,7 @@ mvn test
 
 ![Swagger UI](docs/images/swagger-UI.png)
 
-![application Starting](docs/images/application_starting.jpg)
+![application starting](docs/images/application_starting.jpg)
 ![Swagger UI](docs/images/swagger-UI.png)
 ![POST Request 1](docs/images/POST-request-1.png)
 ![POST Request 2](docs/images/POST-request-2.png)
