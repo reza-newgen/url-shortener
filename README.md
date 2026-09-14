@@ -17,7 +17,7 @@ Resilient Failure Isolation: Soft-fails Kafka/Redis connectivity drops so redire
 
 🏗 System Architecture
 
-[System Architecture & Kafka Flow](./docs/ARCHITECTURE.md)
+[System Architecture & Kafka Flow](/docs/ARCHITECTURE.md)
 
   [ Client ] 
       │
@@ -28,7 +28,7 @@ Resilient Failure Isolation: Soft-fails Kafka/Redis connectivity drops so redire
                                                  │
       ├─── 2. GET /{code} (Redirect) ──────────────┤
       │                                             ├───► [ Redis Cache ]
-      │                                             └───► [ Kafka Producer ] ───► [ Kafka Consumer ] ───► [ PostgreSQL ]
+      │                                             └───► [ PostgreSQL ]
 
 
       
