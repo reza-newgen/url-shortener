@@ -112,7 +112,7 @@ mvn spring-boot:run
 Run automated unit and integration tests:
 
 mvn test
-
+![test-pass](docs/images/test-pass.png)
 
 ![application starting](docs/images/application_starting.png)
 ![Swagger UI](docs/images/swagger-UI.png)
