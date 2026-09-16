@@ -124,4 +124,4 @@ mvn test
 ![GET Analytics API Result](docs/images/GET-analytics-API-call-result.png)
 ![Database Table 2](docs/images/database-table-2.png)
 ![Request Terminal](docs/images/request_terminal.png)
-
+![Github-Copilot](docs/images/github-copilot.png)
